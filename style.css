@@ -1,0 +1,34 @@
+header{
+    font-size: larger;
+    font-weight: bolder ;
+    width: 97.4vw;
+    justify-content: center;
+    position: static;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;   
+}
+nav{
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 20px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+.flex{
+    display: flex;
+}
+main{
+    background-color: gray;
+    margin: auto;
+    
+}
