@@ -11,6 +11,11 @@ header{
        
 }
 nav{
+    /* Quando a barra de navegação estiver no topo ela fixa em cima da tela */
+    position: sticky;
+    top: 0; 
+    /*  */
+    background-color: black;
     margin: auto;
 }
 nav a{
