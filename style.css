@@ -10,7 +10,7 @@ header{
     background-color: black;
     color: white;
     display: flex;
-    padding: 20px;
+    padding: 10px;
 }
 nav{
     position: absolute;
@@ -21,14 +21,14 @@ nav{
     background-color: black;
     text-align: center;
     margin: auto;
-    padding: 20px;
+    padding: 15px;
 }
 nav a{
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 20px;
 }
 nav a:hover{
@@ -40,8 +40,7 @@ nav a:hover{
 }
 main{
     background-color: gray;
-    margin-top: 700px;
-    width: 100vw;
+    height: 800px;
     
 }
 .abt_turma{
@@ -55,11 +54,12 @@ main{
     text-align: justify;
 }
 .logo_turma{
-    
+    margin-right: 50px;
 }
 #img_turma{
     background-image: url(assets/imagens/Paisagem-1.jpg);
     background-position: right center;
+    background-size: cover;
 }
 .imagem{
     background-color: rgb(58, 57, 57);
