@@ -47,9 +47,6 @@ main{
     padding-top: 30px;
     
 }
-.abt_turma p{
-    text-align: center;
-}
 .abt_turma h1{
     text-align: justify;
 }
@@ -57,7 +54,9 @@ main{
     margin-right: 50px;
 }
 #img_turma{
+    /* Modifica o blend da imagem */
     background-blend-mode: soft-light;
+    /*  */
     background-image: url(assets/imagens/image.png);
     background-position: right center;
     background-size: cover;
