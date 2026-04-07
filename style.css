@@ -23,6 +23,7 @@ nav{
     margin: auto;
     padding: 15px;
 }
+
 nav a{
     text-decoration: none;
     color: white;
@@ -39,10 +40,11 @@ nav a:hover{
     display: flex;
 }
 main{
+    margin: 0;
     background-color: gray;
     height: 800px;
-    
 }
+
 .abt_turma{
     padding-top: 30px;
     
@@ -52,6 +54,9 @@ main{
 }
 .logo_turma{
     margin-right: 50px;
+}
+.logo_turma img{
+    max-height: 700px;
 }
 #img_turma{
     /* Modifica o blend da imagem */
@@ -74,4 +79,11 @@ main{
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
     background-size: cover;
+}
+#linha{
+    background-color: black;
+    width: 100vw;
+    padding: 10px;
+    color: white;
+    margin: 0;
 }
