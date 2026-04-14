@@ -74,6 +74,10 @@ section{
     background-attachment: fixed;
 }
 
+.text_geral{
+    margin: auto;
+}
+
 footer{
     margin: 0;
     padding: 30px;
