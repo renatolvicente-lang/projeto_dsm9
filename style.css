@@ -3,26 +3,19 @@ body{
     background-color: grey;
 }
 header{
-    position: relative;
+    top: 0;
+    position: fixed;
     font-size: larger;
     font-weight: bolder ;
-    text-align: justify;
     position: static;
     background-color: black;
     color: white;
     display: flex;
     padding: 10px;
+    justify-content: space-between;
 }
 nav{
-    position: absolute;
-    /* Quando a barra de navegação estiver no topo ela fixa em cima da tela */
-    position: sticky;
-    top: 0; 
-    /*  */
-    background-color: black;
-    text-align: center;
     margin: auto;
-    padding: 15px;
 }
 
 nav a{
