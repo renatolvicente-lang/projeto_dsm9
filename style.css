@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: grey;
 }
 header{
     position: relative;
@@ -36,20 +37,17 @@ nav a:hover{
     background-color: white;
     color: black;
 }
-.flex{
-    display: flex;
-}
 main{
     display: flex;
     margin: 0;
-    background-color: gray;
+    background-color: #FDFFFC;
     height: 800px;
 }
 section{
     display: flex;
 }
 
-.abt_turma{
+.abt_geral{
     padding: 50px;
     margin: auto;
     
@@ -90,5 +88,8 @@ section{
     background-size: cover;
 }
 footer{
+    margin: 0;
+    padding: 30px;
     text-align: center;
+    background-color: white;
 }
