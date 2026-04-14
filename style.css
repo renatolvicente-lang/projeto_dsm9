@@ -40,29 +40,38 @@ nav a:hover{
     display: flex;
 }
 main{
+    display: flex;
     margin: 0;
     background-color: gray;
     height: 800px;
 }
+section{
+    display: flex;
+}
 
 .abt_turma{
-    padding-top: 30px;
+    padding: 50px;
+    margin: auto;
     
 }
 .abt_turma h1{
     text-align: justify;
 }
-.logo_turma{
+.img_geral{
     margin-right: 50px;
+    width: 100%;
+    height: 100%; /* ou uma altura fixa, ex: 500px */
+    background-image: url('assets/imagens/Paisagem-1.jpg');
+    background-size: cover; /* ou '100% 100%' para esticar */
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.logo_turma img{
-    max-height: 700px;
-}
+
 #img_turma{
     /* Modifica o blend da imagem */
     background-blend-mode: soft-light;
     /*  */
-    background-image: url(assets/imagens/image.png);
+    background-image: url('assets/imagens/image.png');
     background-position: right center;
     background-size: cover;
 }
@@ -79,4 +88,7 @@ main{
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
     background-size: cover;
+}
+footer{
+    text-align: center;
 }
